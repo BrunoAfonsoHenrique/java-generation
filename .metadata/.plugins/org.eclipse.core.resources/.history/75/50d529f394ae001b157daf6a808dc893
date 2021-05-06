@@ -8,7 +8,8 @@ public class ExDoWhile06 {
 	{
 		Scanner leia = new Scanner(System.in);
 		
-		float num, qtd = 0, soma = 0, media;
+		float num, qtd = 0, soma = 0;
+		float media;
 		
 		do
 		{
