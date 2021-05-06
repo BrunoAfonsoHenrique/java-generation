@@ -20,7 +20,7 @@ public class ExDoWhile05 {
 		}
 		while(num != 0);
 		
-		System.out.println("\nA Soma dos números digitados é: " + num);
+		System.out.println("\nA Soma dos números digitados é: " + soma);
 
 	}
 
