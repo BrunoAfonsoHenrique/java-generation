@@ -1,0 +1,18 @@
+package ExerciciosRepeticao;
+
+public class ExFor01 {
+
+	public static void main(String[] args) {
+		
+		
+		for(int num = 100; num <= 1999; num++)
+		{
+			if(num % 11 == 5)
+			{
+				System.out.println(num);
+			}
+		}
+
+	}
+
+}
