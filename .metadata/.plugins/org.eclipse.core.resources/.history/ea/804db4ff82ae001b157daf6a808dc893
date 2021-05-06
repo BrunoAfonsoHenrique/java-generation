@@ -1,0 +1,22 @@
+package ExerciciosRepeticao;
+
+import java.util.Scanner;
+
+public class ExWhile04 {
+
+	public static void main(String[] args) 
+	{
+		
+		Scanner leia = new Scanner(System.in);
+		
+		int cont = 0;
+		
+		while(cont <= 5)
+		{
+			System.out.println(cont);
+			cont++;
+		}
+
+	}
+
+}

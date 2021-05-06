@@ -1,0 +1,26 @@
+package ExerciciosRepeticao;
+
+import java.util.Scanner;
+
+public class ExWhile04 {
+
+	public static void main(String[] args) 
+	{
+		
+		Scanner leia = new Scanner(System.in);
+		
+		int cont = 1, idade;
+		
+		while(cont <= 5)
+		{
+			System.out.println("Digite sua idade: ");
+			idade = leia.nextInt();
+			
+			System.out.printf("\n<<< Generos >>>\n1-Feminino\n2-Maculino\n3-Outros");
+			
+			cont++;
+		}
+
+	}
+
+}

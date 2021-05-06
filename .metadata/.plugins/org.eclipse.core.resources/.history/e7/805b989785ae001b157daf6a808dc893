@@ -1,0 +1,43 @@
+package ExerciciosRepeticao;
+
+import java.util.Scanner;
+
+public class ExWhile04 {
+
+	public static void main(String[] args) 
+	{
+		
+		Scanner leia = new Scanner(System.in);
+		
+		int cont = 1, idade, genero, qtdMulheres = 0, qtdHomens = 0, qtdOutros = 0;
+		
+		
+		while(cont <= 5)
+		{
+			System.out.print("Digite sua idade: ");
+			idade = leia.nextInt();
+			
+			System.out.printf("\n<<< Escolha de Genero >>>\n1-Feminino\n2-Maculino\n3-Outros");
+			genero = leia.nextInt();
+			
+			switch(genero)
+			{
+			case 1: 
+				qtdMulheres += 1;
+				break;
+			case 2: 
+				qtdHomens += 1;
+				break;
+			case 3: 
+				qtdOutros += 1;
+				break;
+				default:
+					System.out.println("\nOpção de genero inválida");
+			}
+			
+			cont++;
+		}
+
+	}
+
+}
