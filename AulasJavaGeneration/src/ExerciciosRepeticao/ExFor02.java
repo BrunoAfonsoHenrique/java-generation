@@ -1,0 +1,32 @@
+package ExerciciosRepeticao;
+
+import java.util.Scanner;
+
+public class ExFor02 {
+
+	public static void main(String[] args)
+	{
+		
+		Scanner leia = new Scanner(System.in);
+		
+		int cont, num, qtdPar = 0, qtdImpar = 0;
+		
+		for(cont = 0; cont < 10; cont++)
+		{
+			System.out.print("Digite um número: ");
+			num = leia.nextInt();
+			
+			if(num % 2 == 0)
+			{
+				qtdPar += 1;
+			}
+			else {
+				qtdImpar += 1;
+			}
+		}
+		System.out.println("\nQuantidade de números pares: " + qtdPar);
+		System.out.println("\nQuantidade de números impares: " + qtdImpar);
+		
+	}
+
+}
