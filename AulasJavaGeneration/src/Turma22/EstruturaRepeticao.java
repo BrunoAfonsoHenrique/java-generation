@@ -1,0 +1,69 @@
+package Turma22;
+
+import java.util.Scanner;
+
+public class EstruturaRepeticao {
+
+	public static void main(String[] args) {
+		
+		float nota1,nota2,nota3,media,somamedia=0,mediageral;
+		try (//int x;
+		Scanner leia = new Scanner(System.in)) {
+			for(int x=1;x<=1;x++)
+			{
+
+				System.out.println("\nEntre com a primeira nota: ");
+				nota1 = leia.nextFloat();
+				System.out.println("\nEntre com a segunda nota: ");
+				nota2 = leia.nextFloat();
+				System.out.println("\nEntre com a terceira nota: ");
+				nota3 = leia.nextFloat();
+				
+				media = (nota1 + nota2 + nota3)/3;
+				System.out.printf("\nMédia aluno "+x+": %2.2f",media);
+				somamedia = somamedia + media;
+			}
+			mediageral = somamedia / 3;
+			System.out.println("\nMédia geral: "+mediageral);
+			for(int x=1;x<=10;x++)
+			{
+				System.out.println("\n");
+			}
+			int num,somapar=0,somaimpar=0;
+			System.out.println("Entre com um número: ");
+			num = leia.nextInt();
+			
+			while(num!=0)
+			{
+				if(num%2==0)
+				{
+					somapar = somapar + num;
+				}
+				else
+				{
+					somaimpar = somaimpar + num;
+				}
+				System.out.println("\nEntre com um número: ");
+				num = leia.nextInt();
+			}
+			
+			System.out.println("\nSomatório dos pares: "+somapar);
+			System.out.println("\nSomatório dos ímpares: "+somaimpar);
+			int somanum=0;
+			System.out.println("\nEntre com um número: ");
+			num = leia.nextInt();
+			do
+			{
+				
+				somanum = somanum + num;
+				System.out.println("\nEntre com um número: ");
+				num = leia.nextInt();
+			}
+			while(num<0);
+			System.out.println("\nSomatório dos números: "+somanum);
+		}
+	}
+	
+	
+
+}
