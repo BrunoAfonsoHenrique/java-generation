@@ -22,7 +22,8 @@ public class ExMatriz04 {
 				System.out.print("Digite um valor na matriz M1(números reais): ");
 				m1[linha][coluna] = leia.nextFloat();
 			}
-		}		
+		}
+		
 		for(linha=0; linha<2; linha++)
 		{
 			for(coluna=0; coluna<2; coluna++)
@@ -30,10 +31,12 @@ public class ExMatriz04 {
 				System.out.print("Digite um valor na matriz M2(números reais): ");
 				m2[linha][coluna] = leia.nextFloat();
 			}
-		}	
+		}
+		
 		System.out.println("\n<<< Lista de opções >>>");
 		System.out.println("1 - Somar as duas matrizes.\n2 - Subtrair a primeira matriz da segunda(M1-M2).");
 		System.out.println("3 - Adiconar uma constante as duas matrizes.\n4 - Imprimir as matrizes.");	
+		
 		System.out.print(">>>Digite a opção escolhida: ");
 		op = leia.nextInt();
 		
@@ -47,7 +50,8 @@ public class ExMatriz04 {
 			
 			System.out.print(">>>Digite a opção escolhida: ");
 			op = leia.nextInt();
-		}		
+		}
+		
 		if(op == 1)
 		{
 			for(linha=0; linha<2; linha++)
@@ -56,7 +60,8 @@ public class ExMatriz04 {
 				{
 					m3[linha][coluna] = m1[linha][coluna] + m2[linha][coluna];
 				}
-			}			
+			}
+			
 			System.out.println("\n\nSoma das matrizes M1 + M2");
 			for(linha=0; linha<2; linha++)
 			{
@@ -75,7 +80,9 @@ public class ExMatriz04 {
 				{
 					m3[linha][coluna] = m1[linha][coluna] - m2[linha][coluna];
 				}
-			}								
+			}
+			
+					
 			System.out.println("\n\nSubtração das matrizes M1-M2");
 			for(linha=0; linha<2; linha++)
 			{
@@ -99,7 +106,8 @@ public class ExMatriz04 {
 					m1[linha][coluna] += constante;
 					m2[linha][coluna] += constante;
 				}
-			}		
+			}
+			
 			System.out.println("\nMatriz M1- Somado a constante "+constante+" a cada valor da matriz");
 			for(linha=0; linha<2; linha++)
 			{
@@ -120,8 +128,7 @@ public class ExMatriz04 {
 			}
 				
 		}
-		else if(op == 4)
-		{
+		else if(op == 4) {
 			System.out.println("\nMatriz M1");
 			for(linha=0; linha<2; linha++)
 			{
@@ -142,4 +149,5 @@ public class ExMatriz04 {
 			}
 		}
 	}
+
 }
