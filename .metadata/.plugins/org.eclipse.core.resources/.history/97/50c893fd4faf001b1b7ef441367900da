@@ -1,0 +1,45 @@
+package ExerciciosArray;
+
+import java.util.Scanner;
+
+public class ExMatriz04 {
+
+	public static void main(String[] args) 
+	{
+		
+		Scanner leia = new Scanner(System.in);
+		
+		float[][] m1 = new float[2][2];
+		float[][] m2 = new float[2][2];
+		
+		int linha, coluna, op;
+		
+		for(linha=0; linha<3; linha++)
+		{
+			for(coluna=0; coluna<3; coluna++)
+			{
+				System.out.println("Digite um valor na matriz M1(números reais): ");
+				m1[linha][coluna] = leia.nextFloat();
+			}
+		}
+		
+		for(linha=0; linha<3; linha++)
+		{
+			for(coluna=0; coluna<3; coluna++)
+			{
+				System.out.println("Digite um valor na matriz M2(números reais): ");
+				m2[linha][coluna] = leia.nextFloat();
+			}
+		}
+		
+		System.out.println("<<< Lista de opções >>>");
+		System.out.println("1 - Somar as duas matrizes.\n2 - Subtrair a primeira matriz da segunda(M1-M2).");
+		System.out.println("3 - Adiconar uma constante as duas matrizes.\n4 - Imprimir as matrizes.");
+		
+		
+		
+		System.out.println("O que você deseja fazer com as matrizes M1 e M2? ");
+
+	}
+
+}
