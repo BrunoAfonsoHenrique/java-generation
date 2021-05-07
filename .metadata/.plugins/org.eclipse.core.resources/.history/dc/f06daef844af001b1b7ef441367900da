@@ -1,0 +1,34 @@
+package ExerciciosArray;
+
+public abstract class ExArray01 {
+
+	public static void main(String[] args) 
+	{
+		
+		int[] vetor = {1, 0, 5, -2, -5, 7};
+		
+		int cont, soma=0;
+		
+		System.out.print("Meu vetor inicial é: ");
+		
+		for(cont=0; cont<6; cont++)
+		{
+			System.out.print(vetor[cont]+ " ");
+		}
+		
+		soma = vetor[0] + vetor[1] + vetor[1];
+		System.out.println("\nA soma dos valores nas posições vetor[0], vetor[1], vetor[5] é: "+ soma);
+		
+		System.out.println("\n");
+		
+		vetor[4] = 100;
+		
+		for(cont=0; cont<6; cont++)
+		{
+			System.out.println("Posição "+cont+ ": " +vetor[cont]+ " ");
+		}
+		
+		
+	}
+
+}

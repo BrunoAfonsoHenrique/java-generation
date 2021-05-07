@@ -1,0 +1,21 @@
+package ExerciciosArray;
+
+public abstract class ExArray01 {
+
+	public static void main(String[] args) 
+	{
+		
+		int[] vetor = {1, 0, 5, -2, -5, 7};
+		
+		int cont;
+		
+		System.out.print("Meu vetor inicial é: ");
+		
+		for(cont=0; cont<6; cont++)
+		{
+			System.out.print(vetor[cont]+ " ");
+		}
+
+	}
+
+}

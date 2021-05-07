@@ -1,0 +1,10 @@
+package ExerciciosArray;
+
+public abstract class ExArray01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
