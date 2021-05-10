@@ -1,0 +1,14 @@
+package ExerciciosPoo;
+
+public class TesteCliente {
+
+	public static void main(String[] args) 
+	{
+		Cliente cliente1 = new Cliente("Bruno", "bruno_afonso_henrique@outlook.com","12345","11 92222-2222");
+		
+		
+		cliente1.
+
+	}
+
+}

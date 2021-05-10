@@ -1,0 +1,15 @@
+package ExerciciosPoo;
+
+import java.util.Scanner;
+
+public class TesteCliente {
+
+	public static void main(String[] args)
+	{
+		Scanner leia = new Scanner(System.in);
+		
+		for(cont=0; cont<3)
+
+	}
+
+}

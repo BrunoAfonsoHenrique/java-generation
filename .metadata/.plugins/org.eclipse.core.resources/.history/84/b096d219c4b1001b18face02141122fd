@@ -1,0 +1,16 @@
+package ExerciciosPoo;
+
+public class Cliente {
+		
+	private String nomeCliente;
+	private String dataNascimentoCliente;
+	private String cpfCliente;
+	private String telefone;
+	private String email;
+	
+	public Cliente()
+	{
+		
+	}
+	
+}

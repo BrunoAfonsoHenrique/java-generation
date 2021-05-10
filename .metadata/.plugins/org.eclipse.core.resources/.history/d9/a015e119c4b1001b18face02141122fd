@@ -1,0 +1,57 @@
+package ExerciciosPoo;
+
+import java.util.Scanner;
+
+public class Cliente {
+	
+	Scanner leia = new Scanner(System.in);
+	
+	double vp, vt; // vp = valor do produto, vt = valor total
+	
+	private String nomeCliente;
+	private int codigoCliente;
+	
+	public Cliente(String nome, int codigo)
+	{
+		this.nomeCliente = nome;
+		this.codigoCliente = codigo;
+	}
+	
+	//Métodos
+	
+	public Scanner getleia()
+	{
+		return leia;
+	}
+	
+	public void setLeia(Scanner leia)
+	{
+		this.leia = leia;
+	}
+	
+	public double getVp()
+	{
+		return vp;
+	}
+	public void setVp(double vp)
+	{
+		this.vp = vp;
+	}
+	
+	
+		
+	/*private String nomeCliente;
+	private String dataNascimentoCliente;
+	private String cpfCliente;
+	private String telefone;
+	private String email;
+	
+	public Cliente(String nomeCliente, String cpfCliente, String telefone, String email)
+	{
+		this.nomeCliente = nomeCliente;
+		this.cpfCliente = cpfCliente;
+		this.telefone = telefone;
+		this.email = email;
+	}*/
+	
+}
