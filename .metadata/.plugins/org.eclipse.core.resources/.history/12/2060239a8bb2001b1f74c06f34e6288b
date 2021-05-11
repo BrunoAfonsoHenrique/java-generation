@@ -1,0 +1,12 @@
+package ExercicioHeranca;
+
+public class TesteHerancaAnimal {
+
+	public static void main(String[] args) 
+	{
+		Cachorro dog = new Cachorro("Doguinho",8,"latido","Correr");
+		dog.escreva();
+
+	}
+
+}
