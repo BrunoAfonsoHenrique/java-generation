@@ -1,0 +1,30 @@
+package ExerciciosPoo;
+
+public class ProdutoEletronico {
+		
+	private String notebook;
+	private String microondas;
+	private String televisor;
+	private String smartphone;
+	private String tablet;
+	private String videogame;
+	
+	
+	public ProdutoEletronico(String notebook, String microondas, String televisor, String smartphone, String tablet,String videogame)
+	{
+		this.notebook = notebook;
+		this.microondas = microondas;
+		this.televisor = televisor;
+		this.smartphone = smartphone;
+		this.tablet = tablet;
+		this.videogame = videogame;
+	}
+	
+	public void escreva()
+	{
+		System.out.println("<<< Lista de produtos eletrônicos(SUPER TECNOLÓGICOS >>>");
+		System.out.println("\n1- "+notebook+"\n2- "+microondas+"\n3- "+televisor);
+		System.out.println("\n4- "+smartphone+"\n5- "+tablet+"\n6- videogame");
+	}	
+	
+}

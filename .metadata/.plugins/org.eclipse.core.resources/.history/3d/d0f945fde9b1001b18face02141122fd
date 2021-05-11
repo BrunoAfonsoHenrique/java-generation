@@ -1,11 +1,14 @@
 package ExerciciosPoo;
 
+import java.util.Scanner;
+
 import Turma22.Automovel;
 
 public class TesteCliente {
 
 	public static void main(String[] args) 
 	{
+		Scanner leia = new Scanner(System.in);
 		
 		Cliente cliente1 = new Cliente("Bruno", "bruno_afonso_henrique@outlook.com","12345","11 92222-2222");
 		

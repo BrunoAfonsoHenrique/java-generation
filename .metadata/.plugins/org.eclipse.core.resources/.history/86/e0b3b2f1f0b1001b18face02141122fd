@@ -1,0 +1,13 @@
+package ExerciciosPoo;
+
+public class TesteProdutoEletronico {
+
+	public static void main(String[] args) 
+	{
+		ProdutoEletronico lista1 = new ProdutoEletronico("Notebook Gamer Lenovo Ideapad L340",
+				"Forno micro-ondas Electrolux MTD30 20 litros","Samsung Smart TV 50\" Crystal UHD 50TU8000 4K",
+				"Iphone 12","Ipad","Multifuncional Epson");
+
+	}
+
+}

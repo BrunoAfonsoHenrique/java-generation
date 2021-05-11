@@ -15,7 +15,8 @@ public class Cliente {
 		this.codCliente = codCliente;
 		this.telCliente = telCliente;
 	}
-
+	
+	String cliente4;
 	
 	public void escreva()
 	{
