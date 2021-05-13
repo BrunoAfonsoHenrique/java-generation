@@ -1,0 +1,34 @@
+package ExerciciosColections;
+
+import java.util.ArrayList; // Para usar a conection
+import java.util.Scanner; 
+
+public class Exericios03 {
+
+	public static void main(String[] args) 
+	{
+		int op;
+		
+		Scanner leia = new Scanner(System.in);
+		
+		ArrayList <String> estoque = new ArrayList(); // É criado a colection
+		
+		do
+		{
+			//Começo Menu de opções
+			System.out.println("\n--------------------------------------------------");
+			System.out.println("\n(1) Deseja adicionar produtos ao estoque?");
+			System.out.println("\n(2) Deseja remover produtos do estoque?");
+			System.out.println("\n(3) Atualizar produtos do estoque?");
+			System.out.println("\n(4) Mostar todos os produtos do estoque?");
+			System.out.println("\n(0) Deseja encerrar o programa?");
+			System.out.print("\nDigite sua opção: ");
+			op = leia.nextInt(); // Entrada de dados na variável op
+			
+			// Final do menu de opçoes
+			
+		}while(op!=0);
+
+	}
+
+}

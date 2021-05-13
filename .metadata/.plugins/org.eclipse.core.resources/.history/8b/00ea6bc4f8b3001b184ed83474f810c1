@@ -1,0 +1,30 @@
+package Colections;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Colecoes2 {
+
+	public static void main(String[] args) 
+	{
+		int op;
+		
+		Scanner leia = new Scanner(System.in);
+		
+		ArrayList <String> estoque = new ArrayList();
+		
+		do
+		{
+			System.out.println("\n--------------------------------------------------");
+			System.out.println("\n(1) Deseja adicionar produtos ao estoque?");
+			System.out.println("\n(2) Deseja remover produtos do estoque?");
+			System.out.println("\n(3) Atualizar produtos do estoque?");
+			System.out.println("\n(4) Mostar todos os produtos do estoque?");
+			System.out.println("\n(0) Deseja encerrar o programa?");
+			System.out.println("\nDigite sua opção: ");
+			op = leia.nextInt();
+		}while(op!=0);
+		
+	}
+
+}
