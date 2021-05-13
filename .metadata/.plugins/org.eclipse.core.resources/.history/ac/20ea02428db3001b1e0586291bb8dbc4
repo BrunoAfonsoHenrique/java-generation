@@ -1,0 +1,22 @@
+package ExercicioPolimorfismo;
+
+public abstract class Animais { // Declaracação da classe abstrata
+	
+	private String especie; // Declaração do atributo da classe
+	abstract public void som(String som); // Declaração do método abstratp
+	
+	public Animais(String som)
+	{
+		this.especie = especie; // Aqui é passadoo o animal para a especie
+	}
+	
+	// Métodos get e set
+	public String getEspecie() {
+		return especie;
+	}
+
+	public void setEspecie(String especie) {
+		this.especie = especie;
+	}
+
+}

@@ -1,0 +1,12 @@
+package Heranca1;
+
+public class Coordenador extends Pessoa{
+	
+	private String cursoCoordenado;
+	
+	public Coordenador(String nome, int matricula, String cursoCoordenado)
+	{
+		super(nome, matricula);
+		this.cursoCoordenado = cursoCoordenado;
+	}
+}

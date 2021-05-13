@@ -1,0 +1,13 @@
+package ExercicioPolimorfismo;
+
+public class Animal {
+	
+	private String especie;
+	abstract public void som(String tiposom);
+	
+	public Animal(String especie)
+	{
+		this.especie
+	}
+	
+}

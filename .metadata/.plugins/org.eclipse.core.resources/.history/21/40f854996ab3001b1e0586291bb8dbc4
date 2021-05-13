@@ -1,0 +1,6 @@
+package Interface;
+
+public class Leitor {
+	
+	String lendo(); // Método
+}

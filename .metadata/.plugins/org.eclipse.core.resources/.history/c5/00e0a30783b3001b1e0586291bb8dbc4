@@ -1,0 +1,12 @@
+package ExercicioPolimorfismo;
+
+public class Cachorro extends Animal{
+	
+	public Cachorro() { // Construtor
+		super("Cachorro");
+	}
+	
+	public void som(String somanimal) {
+		System.out.println("Latido");
+	}
+}

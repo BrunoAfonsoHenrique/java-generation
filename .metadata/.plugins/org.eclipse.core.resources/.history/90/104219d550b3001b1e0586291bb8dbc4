@@ -1,0 +1,13 @@
+package Interface;
+
+public interface Figuras {
+	
+	public String nomeInterface = "Figuras";	
+	abstract public String getNome(); // Método abstrato
+	abstract public void setNome(String Nome); // Método abstrato
+	
+	public double getArea(); // Método não abstrato
+	public double getPerimetro(); // Método não abstrato
+	double getDiagonal(); // Método não abstrato	
+	
+}

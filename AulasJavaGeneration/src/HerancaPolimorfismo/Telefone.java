@@ -1,0 +1,23 @@
+package HerancaPolimorfismo;
+
+public abstract class Telefone { // uso da palavra abstract
+	
+	private String tipo; // Declaração do atributo tipo
+	abstract public void disca(String numero); // Declaração das classes abstratas
+	abstract public void toca(int numToques); // Declaração das classes abstratas
+	
+	public Telefone(String tipo) {
+		this.tipo = tipo;
+	}
+	
+	// Métodos Getters e Seters
+	public String getTipo() {
+		return tipo;
+	}
+	public void setTipo(String tipo) {
+		this.tipo = tipo;
+	}
+	
+	
+
+}
