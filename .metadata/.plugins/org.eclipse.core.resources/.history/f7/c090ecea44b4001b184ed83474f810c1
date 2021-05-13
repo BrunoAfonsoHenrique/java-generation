@@ -11,7 +11,7 @@ public class Exericios03 {
 		
 		Scanner leia = new Scanner(System.in);
 		
-		ArrayList <String> armazenamento = new ArrayList(); // É criado a colection
+		ArrayList <String> estoque = new ArrayList(); // É criado a colection
 		
 		do
 		{
@@ -34,15 +34,15 @@ public class Exericios03 {
 				leia.nextLine(); // Lê uma String --> Nesse caso esta esvaziando o buffer de memória
 				System.out.println("\nDigite o produto para adicionar ao estoque: ");
 				String produto = leia.nextLine();
-				armazenamento.add(produto); //Estou adicionando o produto digitado na Colection(lista) --> ADICIONAR
+				estoque.add(produto); //Estou adicionando o produto digitado na Colection(lista) --> ADICIONAR
 				break;
 			case 2:
 				leia.nextLine(); // Lê uma String --> Nesse caso esta esvaziando o buffer de memória
 				System.out.print("\nQual elemento deseja remover? ");
 				String produto1 = leia.nextLine(); // Em produto1 será colocado o elemento que se deseja remover
-				if(armazenamento.contains(produto1)) // Se produto1 estiver contido em estoque(lista)
+				if(estoque.contains(produto1)) // Se produto1 estiver contido em estoque(lista)
 				{
-					armazenamento.remove(produto1); // Retira o produto da lista(estoque) --> REMOVER
+					estoque.remove(produto1); // Retira o produto da lista(estoque) --> REMOVER
 				}
 				else // Se não estiver: Apresenta a mensagem abaixo
 				{
@@ -56,10 +56,10 @@ public class Exericios03 {
 				
 				System.out.println("\nDigite o nome do produto que entrará no lugar de"+verifica);
 				String novo = leia.nextLine(); // Declarada a variavel que armazenará o novo produto
-				if(armazenamento.contains(verifica))  // Se estoque contém o produto digitado
+				if(estoque.contains(verifica))  // Se estoque contém o produto digitado
 				{
-					armazenamento.remove(verifica); // --> Remove o produto --> REMOVER      --> ALTERAÇÃo
-					armazenamento.add(novo); // --> Adiciona o novo produto --> ADICIONAR    --> ALTERAÇÃo
+					estoque.remove(verifica); // --> Remove o produto --> REMOVER      --> ALTERAÇÃo
+					estoque.add(novo); // --> Adiciona o novo produto --> ADICIONAR    --> ALTERAÇÃo
 				}
 				else
 				{
@@ -68,7 +68,7 @@ public class Exericios03 {
 				break;
 			case 4:
 				System.out.println("\nMostrando os produtos do estoque...");
-				System.out.println(armazenamento);
+				System.out.println(estoque);
 				break;
 				default:
 					System.out.println("\nFinalizou o programa !!!");
