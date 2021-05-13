@@ -22,7 +22,7 @@ public class Exericios03 {
 			System.out.println("\n(3) Atualizar produtos do estoque?");
 			System.out.println("\n(4) Mostar todos os produtos do estoque?");
 			System.out.println("\n(0) Deseja encerrar o programa?");
-			System.out.print("\nDigite a sua opção: ");
+			System.out.print("\nDigite sua opção: ");
 			op = leia.nextInt(); // Entrada de dados na variável op
 			
 			// Final do menu de opçoes
